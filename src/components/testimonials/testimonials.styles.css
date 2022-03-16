@@ -1,0 +1,18 @@
+.testimonials{
+    border: 1px solid #3ebf0f;
+    border-radius: 8px;
+    width: 50vw;
+    margin-left: 25%;
+    padding: 1em;
+}
+.open-quote{
+    height: 10vh;
+    margin-left: -70%;
+}
+.testimonials h2{
+    margin-top: -5%;
+}
+.close-quote{
+    height: 10vh;
+    margin-left: 70%;
+}

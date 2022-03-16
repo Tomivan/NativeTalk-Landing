@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 0.5px solid #3ebf0f;
+}
+.create{
+    height: 5vh;
+    width: 10vw;
+    color: #ffffff;
+    background: #3ebf0f;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+}

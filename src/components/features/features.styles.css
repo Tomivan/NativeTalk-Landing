@@ -1,0 +1,25 @@
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.right{
+    width: 60%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 23vw;
+    border-radius: 5px;
+    background: #e6f7e0;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+    padding: 1em;
+}
+.right button{
+    margin-left: -63%;
+    width: 20vw;
+}

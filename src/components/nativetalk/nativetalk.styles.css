@@ -1,0 +1,9 @@
+.native-talk{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.native-talk-left{
+    margin-top: 10%;
+    text-align: left;
+}

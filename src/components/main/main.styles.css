@@ -1,0 +1,33 @@
+.main{
+    background: #e6f7e0;
+    height: 85vh;
+    padding-top: 1em;
+    text-align: center;
+}
+.pick{
+    margin-top: 5%;
+}
+.pick p{
+    color: #828282;
+}
+.select{
+    display: flex;
+    justify-content: center;
+}
+select{
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    background: none;
+    margin-right: 1%;
+}
+.reserve{
+    height: 5vh;
+    width: 10vw;
+    color: #ffffff;
+    background: #3ebf0f;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
