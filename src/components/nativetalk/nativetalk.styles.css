@@ -7,3 +7,16 @@
     margin-top: 10%;
     text-align: left;
 }
+@media screen and (max-width: 767px) {
+    .native-talk{
+        flex-direction: column;
+    }
+    .native-talk-left{
+        text-align: center;
+        font-size: 13px;
+    }
+    .native-talk-right img{
+        height: 40vh;
+        margin-top: 5%;
+    }
+}

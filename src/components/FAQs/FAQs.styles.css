@@ -1,0 +1,20 @@
+.faqs{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.questions{
+    width: 50%;
+}
+.accordion-body{
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .faqs{
+        flex-direction: column;
+    }
+    .questions{
+        width: 90vw;
+    }
+}

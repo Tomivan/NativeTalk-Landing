@@ -1,0 +1,28 @@
+.footer{
+    background: #e6f7e0;
+    height: 25vh;
+    padding-top: 2em;
+}
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.footer-line{
+    width: 40%;
+    border: 1px solid #3ebf0f;
+}
+.media{
+    margin: 1% 0 0 2%;
+}
+.media-icon{
+    margin-right: 3%;
+}
+.footer p{
+    margin-top: 1%;
+}
+@media screen and (max-width: 767px) {
+    .footer-logo{
+        padding: 0.3em;
+    }
+}

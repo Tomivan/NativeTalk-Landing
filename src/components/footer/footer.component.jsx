@@ -8,12 +8,15 @@ import './footer.styles.css';
 const Footer = () => {
     return(
         <div className="footer">
-            <hr />
-            <img src={Logo} alt="" />
+            <div className="footer-head">
+                <hr className="footer-line"/>
+                <img src={Logo} alt=""className="footer-logo"/>
+                <hr className="footer-line"/>
+            </div>
             <div className="media">
-                <img src={Facebook} alt=""/>
-                <img src={Twitter} alt=""/>
-                <img src={Instagram} alt="" />
+                <img src={Facebook} alt="" className="media-icon"/>
+                <img src={Twitter} alt="" className="media-icon"/>
+                <img src={Instagram} alt="" className="media-icon"/>
             </div>
             <p>&copy; 2022 Tech4mation LTD</p>
         </div>

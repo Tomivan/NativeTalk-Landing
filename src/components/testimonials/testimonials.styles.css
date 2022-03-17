@@ -16,3 +16,13 @@
     height: 10vh;
     margin-left: 70%;
 }
+@media screen and (max-width: 767px) {
+    .testimonials{
+        width: 85vw;
+        margin-left: 7.5%;
+        font-size: 13px;
+    }
+    .open-quote{
+        margin-left: -75%;
+    }
+}

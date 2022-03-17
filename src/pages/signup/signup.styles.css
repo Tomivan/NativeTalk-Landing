@@ -1,5 +1,5 @@
 .signup-nav{
-    margin-top: 2%;
+    margin: 2% 0;
 }
 .body{
     background-color: #3ebf0f;
@@ -10,7 +10,7 @@ form{
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    width: 26vw;
+    width: 30vw;
     margin: 3% 0 0 37%;
     padding: 1em;
     border-radius: 10px;
@@ -26,6 +26,9 @@ input{
     border-radius: 5px;
     background: none;
 }
+input::placeholder{
+    padding-left: 1em;
+}
 form select{
     width: 100%;
 }
@@ -34,4 +37,12 @@ span{
 }
 form .create{
     width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    form{
+        width: 90vw;
+        margin-left: 2.5%;
+        font-size: 12px;
+    }
 }

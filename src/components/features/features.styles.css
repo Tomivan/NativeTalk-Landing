@@ -4,14 +4,14 @@
     margin: 5%;
 }
 .right{
-    width: 60%;
+    width: 65%;
 }
-.cards{
+.feature-cards{
     display: flex;
     flex-wrap: wrap;
 }
-.card{
-    width: 23vw;
+.feature-card{
+    width: 27vw;
     border-radius: 5px;
     background: #e6f7e0;
     margin-right: 2%;
@@ -19,7 +19,26 @@
     text-align: left;
     padding: 1em;
 }
+.feature-card img{
+    padding-bottom: 0.5em;
+}
+.feature-card h4{
+    font-size: 16px;
+}
 .right button{
     margin-left: -63%;
     width: 20vw;
+}
+@media screen and (max-width: 767px) {
+    .features, .feature-cards{
+        flex-direction: column;
+    }
+    .feature-card{
+        width: 80vw;
+        margin-left: 10%;
+    }
+    .right button{
+        width: 60vw;
+        margin: 3% 0 0 30%;
+    }
 }
