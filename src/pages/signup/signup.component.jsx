@@ -6,14 +6,25 @@ import 'firebase/compat/firestore';
 import './signup.styles.css';
 
 const Signup = () => {
-    const {handleSubmit, register } = useForm([]);
+    const {handleSubmit, register, reset } = useForm([]);
+    
     function signUp(data) {
         const msg = `Business Name: ${data.businessName}<br />
                      Full Name: ${data.fullName} <br />
                      Email Address: ${data.emailAddress} <br />
                      Country: ${data.country} <br />
                      Password: ${data.password} <br />`
-        firebase.firestore().collection("mail").add({to: "info@nativetalk.com.ng", message:{html:msg, subject:"New User Signup"}})
+        firebase.firestore().collection("mail").add({to: "bukunmiodugbesans@gmail.com", message:{html:msg, subject:"New User Signup"}})
+        .then((response) => {
+            reset()
+             window.alert("Successfully Saved")
+          })
+        .catch(
+            (error) => {window.alert("Unfortunately, the signup wasn't completed! Please try again.")
+            console.log(error)
+            })
+        
+        
     }
     return(
         <div className='sign-up'>

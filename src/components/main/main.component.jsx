@@ -7,7 +7,7 @@ const Main = () => {
             <h1>Generate a virtual phone number<br /> for your business on NativeTalk</h1>
             <p>Connect with customers in over 60 countries with your NativeTalk virtual phone number.<br />
              Get extra tools to grow your business.</p>
-             <div className="pick">
+             {/* <div className="pick">
                  <p>Pick a number from the dropdown below</p>
                  <div className='select'>
                  <select>
@@ -15,7 +15,7 @@ const Main = () => {
                  </select>
                  <button className='reserve'>Reserve Number</button>
                  </div>
-             </div>
+             </div> */}
         </div>
     )
 }

@@ -33,6 +33,9 @@ select{
 }
 
 @media screen and (max-width: 767px) {
+    .main{
+        height: 60vh;
+    }
     h1{
         font-size: 22px;
     }

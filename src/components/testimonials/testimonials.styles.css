@@ -18,8 +18,8 @@
 }
 @media screen and (max-width: 767px) {
     .testimonials{
-        width: 85vw;
-        margin-left: 7.5%;
+        width: 90vw;
+        margin-left: 5%;
         font-size: 13px;
     }
     .open-quote{

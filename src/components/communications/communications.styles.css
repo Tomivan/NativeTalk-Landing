@@ -1,9 +1,9 @@
 .communications{
-    margin-top: -15%;
+    margin-top: -25%;
 }
 @media screen and (max-width: 767px) {
     .communications{
-        margin-top: -25%;
+        margin-top: -35%;
     }
     .communications img{
         height: 40vh;
