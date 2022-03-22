@@ -14,7 +14,7 @@ const Signup = () => {
                      Email Address: ${data.emailAddress} <br />
                      Country: ${data.country} <br />
                      Password: ${data.password} <br />`
-        firebase.firestore().collection("mail").add({to: "bukunmiodugbesans@gmail.com", message:{html:msg, subject:"New User Signup"}})
+        firebase.firestore().collection("mail").add({to: "info@nativetalk.com.ng", message:{html:msg, subject:"New User Signup"}})
         .then((response) => {
             reset()
              window.alert("Successfully Saved")

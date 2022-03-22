@@ -4,6 +4,9 @@
     padding-top: 1em;
     text-align: center;
 }
+h1{
+    font-weight: bold;
+}
 .pick{
     margin-top: 5%;
 }
