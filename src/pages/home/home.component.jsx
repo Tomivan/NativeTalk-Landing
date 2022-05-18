@@ -17,7 +17,7 @@ const Home = () => {
             <Features />
             <Testimonials />
             <NativeTalk />
-            {/* <FAQs /> */}
+            <FAQs />
             <Footer />
         </div>
     )

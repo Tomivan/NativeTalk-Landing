@@ -27,24 +27,65 @@ const FAQs = () => {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Accordion Item #2
+                                How does NativeTalk work
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            NativeTalk helps businesses set up a cloud-based private phone system, also known<br /> 
+                            as private branch exchange (PBX), for internal and external communications. It is<br /> 
+                            hosted and powered through the internet instead of the traditional PBX<br /> 
+                            that requires expensive hardware and technical specialists. NativeTalk’s CloudPBX is<br /> 
+                            affordable, easy to use and can scale with your business. 
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
+                                How does NativeTalk help businesses
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            NativeTalk makes it easy for businesses to experience more than the limited<br /> 
+                            features of traditional phone numbers.
+                            <li>Separate your business and personal calls</li>
+                            <li> Make missed calls and unreachable numbers old news.</li>
+                            <li>Enhance your personal brand with customised numbers and business lines that<br/>are hard to forget.</li>       
+                            <li>Save labour costs with our virtual receptionists and provide self-service options <br/>  
+                            to your customers.</li>
+                            <li>And access more exciting features </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Can I get international numbers on NativeTalk
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            NativeTalk helps businesses set up a cloud-based private phone system, also known<br/> 
+                            as private branch exchange (PBX), for internal and external communications. It is<br/> 
+                            hosted and powered through the internet instead of the traditional PBX<br /> 
+                            that requires expensive hardware and technical specialists. NativeTalk’s CloudPBX is<br /> 
+                            affordable, easy to use and can scale with your business. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                How much does it cost to use NativeTalk
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            NativeTalk has a free account option that is free forever for two users. All you have<br /> 
+                            to do is top-up airtime for your calls (at cheaper rates 😍). Add more users and<br /> 
+                            phone extensions at NX. See our simple and transparent pricing here.
                             </div>
                         </div>
                     </div>
